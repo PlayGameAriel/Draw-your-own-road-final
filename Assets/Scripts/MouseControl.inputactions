@@ -1,0 +1,90 @@
+{
+    "name": "MouseControl",
+    "maps": [
+        {
+            "name": "Mouse",
+            "id": "0bcf9153-2ad3-47e8-989a-2a853f91392f",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "5f87fe5e-ed04-4ae0-bdbe-755fb0444c4a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Position",
+                    "type": "PassThrough",
+                    "id": "43ee48da-6adb-4da1-883e-3b469668fee2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Erase",
+                    "type": "Button",
+                    "id": "adea606a-1704-4792-8608-8c4e33f7f15d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Zoom",
+                    "type": "PassThrough",
+                    "id": "75c9c134-75ae-4344-884a-983415af2beb",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ce524453-a87a-45c6-9a8e-124196f7e178",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8796654b-2469-4b1c-90cb-199c2a5ca551",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e08b89b3-81b2-4620-90e1-728b6f3edb5e",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Erase",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "801c1fcb-70ee-4667-885f-9e46fb1f64c5",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
